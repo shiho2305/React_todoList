@@ -1,0 +1,89 @@
+.inputAdd{
+    border-radius: 10px;
+    padding: 0.75rem;
+    height: 3rem;
+    border: 3rem rgb(255, 200, 0) solid;
+    border-width: 2px;
+}
+
+.inputAdd:focus{
+    border-color: rgb(255, 102, 0);
+    outline: none;
+}
+
+#divContainerButton{
+    display: inline-block;
+}
+
+.buttonAdd{
+    padding: 0.75rem;
+    background-color: rgba(16, 185, 129, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    height: 100%;
+    width: 130%;
+}
+
+
+.todo{
+    border-radius: 0.5rem;
+    background-color: rgba(254, 243, 199, 1);
+    padding: 2rem;
+    width: 30rem;
+    min-height: 30rem;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.todo-item{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.plist{
+    color: rgba(180, 83, 9, 1);
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.selectTodo{
+    border-radius: 10px;
+    border-width: 2px;
+    display: inline-block;
+    text-align: start;
+    border-color: rgba(217, 119, 6, 1);
+    padding: 0.25rem;
+    height:fit-content;
+}
+
+.list-item{
+    border-bottom: 1px solid rgb(252, 226, 122);
+    cursor: pointer;
+}
+
+.list-item p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    /* color: rgba(156, 163, 175, 1); */
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: 'Pangolin', cursive;
+}
+
+.icon-trash{
+    display: none;
+}
+
+.list-item:hover .icon-trash{
+    display: inline-block;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+
+
